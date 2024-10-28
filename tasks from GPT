@@ -1,0 +1,21 @@
+1. **Number Guessing Game**  
+   - **Concepts**: Input handling, conditionals, random module.
+   - **Description**: Create a game where the program randomly selects a number within a range, and the player has to guess it. You can give hints like “too high” or “too low” until they guess correctly.
+
+2. **Simple Calculator**  
+   - **Concepts**: Basic math operations, input, and conditionals.
+   - **Description**: Build a calculator that performs basic operations like addition, subtraction, multiplication, and division. Start with handling two numbers and then expand to handle multiple numbers.
+
+3. **Quiz Game**  
+   - **Concepts**: Dictionaries, if-statements, input handling.
+   - **Description**: Create a simple quiz game with questions and multiple-choice answers. Keep track of the score, and give the player their final result at the end.
+
+4. **To-Do List App**  
+   - **Concepts**: Lists, input, and conditionals.
+   - **Description**: Make an app where the user can add tasks, remove tasks, and view all tasks. It’s a simple way to practice list manipulation and basic UI in the terminal.
+
+5. **Rock, Paper, Scissors**  
+   - **Concepts**: Random module, conditionals, input handling.
+   - **Description**: Create a Rock, Paper, Scissors game where the user plays against the computer. The computer’s choice can be randomized, and you can add a score counter to keep track.
+
+Let me know if any of these sound interesting, or if you'd like guidance on a specific project!
