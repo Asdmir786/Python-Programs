@@ -2,7 +2,7 @@
    - **Concepts**: Input handling, conditionals, random module.
    - **Description**: Create a game where the program randomly selects a number within a range, and the player has to guess it. You can give hints like “too high” or “too low” until they guess correctly.
 
-2. **Simple Calculator**  
+2. **Simple Calculator**  Done
    - **Concepts**: Basic math operations, input, and conditionals.
    - **Description**: Build a calculator that performs basic operations like addition, subtraction, multiplication, and division. Start with handling two numbers and then expand to handle multiple numbers.
 
