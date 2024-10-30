@@ -13,8 +13,16 @@ if checkForMore == "add":
     user_input = input("Add A Task.\n: ")
     listOfTasks.append(".",user_input)
 elif checkForMore == "del":
-    pass
+    print(listOfTasks)
+    enterNumber = int(input("Tell me which one to delete. "))
+    listOfTasks.pop(enterNumber-1)
 elif checkForMore == "save":
-    pass
+    with open("ToDOList.txt","w") as fyou:
+        fyou.writelines(listOfTasks)
+        fyou.close()
 elif checkForMore == "stetp":
-    pass
+    with open("ToDOList.txt","w") as fyou:
+        fyou.writelines(listOfTasks)
+        fyou.close()
+    print(listOfTasks)    
+    exit()
