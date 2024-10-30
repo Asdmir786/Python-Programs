@@ -1,6 +1,6 @@
 listOfTasks = []
 user_input = input("Add A Task.\n: ")
-listOfTasks.append("1.",user_input)
+listOfTasks.append(".",user_input)
 print("WHat do you want to do?")
 print('''
         1.Add More = add
@@ -11,7 +11,7 @@ print('''
 checkForMore = input() 
 if checkForMore == "add":
     user_input = input("Add A Task.\n: ")
-    listOfTasks.append("1.",user_input)
+    listOfTasks.append(".",user_input)
 elif checkForMore == "del":
     pass
 elif checkForMore == "save":
