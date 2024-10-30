@@ -17,12 +17,14 @@ elif checkForMore == "del":
     enterNumber = int(input("Tell me which one to delete. "))
     listOfTasks.pop(enterNumber-1)
 elif checkForMore == "save":
-    with open("ToDOList.txt","w") as fyou:
-        fyou.write(str(user_input))
+    with open("ToDOList.txt","a") as fyou:
+        fyou.write(f"{str(user_input)} \n")
         fyou.close()
 elif checkForMore == "stetp":
-    with open("ToDOList.txt","w") as fyou:
-        fyou.writelines(user_input)
+    with open("ToDOList.txt","a") as fyou:
+        fyou.write(f"{str(user_input)} \n")
         fyou.close()
     print(listOfTasks)    
     exit()
+else:
+    print("Write something more humane.")
