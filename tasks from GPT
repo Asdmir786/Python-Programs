@@ -6,7 +6,7 @@
    - **Concepts**: Basic math operations, input, and conditionals.
    - **Description**: Build a calculator that performs basic operations like addition, subtraction, multiplication, and division. Start with handling two numbers and then expand to handle multiple numbers.
 
-3. **Quiz Game**  
+3. **Quiz Game**  Done
    - **Concepts**: Dictionaries, if-statements, input handling.
    - **Description**: Create a simple quiz game with questions and multiple-choice answers. Keep track of the score, and give the player their final result at the end.
 
